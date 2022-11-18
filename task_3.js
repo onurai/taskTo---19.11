@@ -11,7 +11,7 @@ request_1.addEventListener('readystatechange', () => {
 request_1.open('GET', 'https://jsonplaceholder.typicode.com/posts');
 request_1.send();
 
-//above we get "could not fetch data". That's why I tried this one below
+//At the first step I disappointed, then I improved by changing word 'stateChange' with 'readyState'. Now It is functioning
 
 //-----------------------------------------------------------------------------------------------------------
 
